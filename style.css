@@ -9,14 +9,14 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f7f7f7;
-  color: #333;
+  background-color: #fffbea;  /* very light yellow */
+  color: #5a4b1a; /* dark mustard brown */
 }
 
 /* Navigation */
 nav {
-  background-color: #222;
-  color: white;
+  background-color: #f1c40f; /* bright yellow */
+  color: #5a4b1a;
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
@@ -37,19 +37,19 @@ nav ul {
 }
 
 nav ul li a {
-  color: white;
+  color: #5a4b1a;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav ul li a:hover {
-  color: #00aaff;
+  color: #d4af37; /* gold */
 }
 
 /* Hero Section */
 .hero {
-  background-color: #005f73;
-  color: white;
+  background-color: #f7dc6f; /* soft yellow */
+  color: #5a4b1a;
   text-align: center;
   padding: 100px 20px;
 }
@@ -62,7 +62,7 @@ section {
 }
 
 section h2 {
-  color: #005f73;
+  color: #d4af37; /* gold */
   margin-bottom: 15px;
 }
 
@@ -74,7 +74,7 @@ ul {
 footer {
   text-align: center;
   padding: 15px;
-  background-color: #222;
-  color: white;
+  background-color: #f1c40f;
+  color: #5a4b1a;
   margin-top: 40px;
 }
